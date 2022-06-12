@@ -1,0 +1,20 @@
+#spring:
+#
+#       config:
+#              activate :
+#                    on-profile: prod
+                    
+name: prod-YAML
+environment: production
+enabled: true
+servers:
+       -abc.com
+       -tst.com   
+       
+spring:
+      datasource:
+                dbname: oracle
+                url: http://localhost:1521:orcl
+                username: c##usman
+                password: usman       
+          
